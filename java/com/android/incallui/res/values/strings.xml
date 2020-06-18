@@ -205,4 +205,7 @@
   <!-- Text for bubble return-to-call button -->
   <string name="bubble_return_to_call">Back to call</string>
 
+  <!-- Text for call not private banner. -->
+  <string name="incall_screen_privacy_data_collection">The location and audio of this call are not private.</string>
+
 </resources>

@@ -21,4 +21,6 @@
 
   <!-- Background color for spam. This color must match one of background_colors_dark in call UI. -->
   <color name="incall_call_spam_background_color">@color/blocked_contact_background</color>
+
+  <color name="incall_header_background">#f3b514</color>
 </resources>

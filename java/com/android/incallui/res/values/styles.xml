@@ -26,7 +26,7 @@
     <item name="android:colorPrimary">@color/dialer_theme_color</item>
     <item name="android:colorPrimaryDark">@color/dialer_theme_color_dark</item>
 
-    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:statusBarColor">@color/incall_header_background</item>
     <item name="android:navigationBarColor">@android:color/transparent</item>
     <item name="android:windowDrawsSystemBarBackgrounds">true</item>
 
@@ -83,7 +83,7 @@
     <item name="android:windowBackground">@android:color/transparent</item>
     <item name="android:windowActivityTransitions">false</item>
 
-    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:statusBarColor">@color/incall_header_background</item>
     <item name="android:navigationBarColor">@android:color/transparent</item>
     <item name="android:windowDrawsSystemBarBackgrounds">true</item>
   </style>
