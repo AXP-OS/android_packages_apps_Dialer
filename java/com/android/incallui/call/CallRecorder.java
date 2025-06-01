@@ -46,6 +46,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Locale;
+import android.provider.Settings; // extendrom call recording
 
 /**
  * InCall UI's interface to the call recorder
