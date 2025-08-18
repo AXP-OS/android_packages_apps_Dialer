@@ -94,6 +94,16 @@ public class CallRecorder implements CallList.Listener {
   }
 
   public boolean canRecordInCurrentCountry() {
+      // extendrom - any call recording
+      int ER_CallRecordingEnabled = Settings.Secure.getInt(
+      context.getContentResolver(),
+      "extendrom_call_recording", 0);
+
+      if (ER_CallRecordingEnabled == 1) {
+          return true;
+      }
+      // END: extendrom - any call recording
+
       if (!isEnabled()) {
           return false;
       }
